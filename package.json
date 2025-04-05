@@ -1,0 +1,26 @@
+{
+  "name": "cy-package",
+  "version": "1.0.0",
+  "description": "Using different aproaches to test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leticialsilva-exe/UI-Testing-Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leticialsilva-exe/UI-Testing-Cypress/issues"
+  },
+  "homepage": "https://github.com/leticialsilva-exe/UI-Testing-Cypress#readme",
+  "dependencies": {
+    "cypress": "^14.2.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "mocha-teamcity-reporter": "^4.2.0"
+  }
+}
