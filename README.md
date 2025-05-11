@@ -8,7 +8,7 @@
 
 - cypress 
 - to do :
-   Lembre-se de planejar quais são os cenários que precisa implementar.
-   Crie um novo repositório para os exercícios deste módulo Implemente 2 suítes de teste para o ecommerce que utilizamos ao longo deste módulo sendo:
-         1 para o fluxo de criação de conta, que utilize Page Objects.
-         1 para o fluxo de checkout(carrinho de compras), utilizando AppActions
+   Crie uma nova branch chamada 'exercicios/modulo-4
+   Crie uma suíte de teste que utilize o intercept para simular e validar respostas dadas pela API do ecommerce utilizado neste módulo (não esqueça de utilizar o cookie ebacStoreVersion=v2) ao adicionar, remover e atualizar itens no carrinho de compras
+      Atualize suas suítes do módulo anterior para que utilize dados (nomes, emails, valores) de forma dinâmica.
+      !Não esqueça de implementar a geração de relatórios do projeto.!
