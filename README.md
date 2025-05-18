@@ -1,10 +1,10 @@
 ## iniciar projeto<br/>
-    npm init<br/>
-    npm install cypress  <br/>
-    npx cypress open<br/>
-        config the project<br/>
-        set baseUrl at cypress.config<br/>
-        set fixtures as wish<br/>
+    npm init
+    npm install cypress  
+    npx cypress open
+        config the project
+        set baseUrl at cypress.config
+        set fixtures as wish
 
 ## cypress <br/>
 * to do :<br/>

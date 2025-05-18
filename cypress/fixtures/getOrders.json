@@ -1,0 +1,129 @@
+{
+    "success": true,
+    "orders": [
+        {
+            "_id": "6825247d041969fcbcec4570",
+            "userId": {
+                "profile": {
+                    "firstName": "Samuel",
+                    "lastName": "Moraes"
+                },
+                "_id": "67d55854712a3b283621adef",
+                "email": "cliente@ebac.art.com"
+            },
+            "products": [
+                {
+                    "productId": {
+                        "_id": "67c8d8126145e1d74826ecac",
+                        "photos": [
+                            "https://exemplo.com/camiseta.jpg"
+                        ]
+                    },
+                    "name": "Camiseta EBAC",
+                    "categories": [
+                        "6543a21b1c9d440001abc123"
+                    ],
+                    "quantity": 1,
+                    "price": 149.99,
+                    "sellPrice": 149.99,
+                    "discount": 0,
+                    "_id": "6825247d041969fcbcec4571"
+                }
+            ],
+            "subTotal": 149.99,
+            "deliveryCharge": 0,
+            "totalPrice": 149.99,
+            "totalDiscount": 0,
+            "status": "delivered",
+            "paymentType": "cod",
+            "paymentStatus": "pending",
+            "createdAt": "2025-05-14T23:17:17.165Z",
+            "updatedAt": "2025-05-14T23:17:17.165Z",
+            "code": "smsjUw",
+            "__v": 0
+        },
+        {
+            "_id": "68251e2c041969fcbcec4176",
+            "userId": {
+                "profile": {
+                    "firstName": "Samuel",
+                    "lastName": "Moraes"
+                },
+                "_id": "67d55854712a3b283621adef",
+                "email": "cliente@ebac.art.com"
+            },
+            "products": [
+                {
+                    "productId": {
+                        "_id": "67c8d8619fccb188a86582aa",
+                        "photos": [
+                            "https://exemplo.com/camiseta-bonita.jpg"
+                        ]
+                    },
+                    "name": "Camiseta EBAC",
+                    "categories": [
+                        "6543a21b1c9d440001abc124"
+                    ],
+                    "quantity": 1,
+                    "price": 159.99,
+                    "sellPrice": 159.99,
+                    "discount": 0,
+                    "_id": "68251e2c041969fcbcec4177"
+                }
+            ],
+            "subTotal": 159.99,
+            "deliveryCharge": 0,
+            "totalPrice": 159.99,
+            "totalDiscount": 0,
+            "status": "cancelled",
+            "paymentType": "cod",
+            "paymentStatus": "pending",
+            "createdAt": "2025-05-14T22:50:20.832Z",
+            "updatedAt": "2025-05-14T22:50:21.630Z",
+            "code": "fHrdDR",
+            "__v": 0
+        },
+        {
+            "_id": "6825247d041969fcbcec4570",
+            "userId": {
+                "profile": {
+                    "firstName": "Samuel",
+                    "lastName": "Moraes"
+                },
+                "_id": "67d55854712a3b283621adef",
+                "email": "cliente@ebac.art.com"
+            },
+            "products": [
+                {
+                    "productId": {
+                        "_id": "67c8d8126145e1d74826ecac",
+                        "photos": [
+                            "https://exemplo.com/camiseta.jpg"
+                        ]
+                    },
+                    "name": "Camiseta EBAC",
+                    "categories": [
+                        "6543a21b1c9d440001abc123"
+                    ],
+                    "quantity": 1,
+                    "price": 149.99,
+                    "sellPrice": 149.99,
+                    "discount": 0,
+                    "_id": "6825247d041969fcbcec4571"
+                }
+            ],
+            "subTotal": 149.99,
+            "deliveryCharge": 10.00,
+            "totalPrice": 159.99,
+            "totalDiscount": 0,
+            "status": "placed",
+            "paymentType": "cod",
+            "paymentStatus": "pending",
+            "createdAt": "2025-05-14T23:17:17.165Z",
+            "updatedAt": "2025-05-14T23:17:17.165Z",
+            "code": "smsjUP",
+            "__v": 0
+        }
+    ],
+    "totalOrder": 2
+}
