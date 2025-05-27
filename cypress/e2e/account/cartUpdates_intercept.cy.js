@@ -27,13 +27,14 @@ describe('Given the user are in the cart page', () => {
             }
         ).as("getCart")
 
+        //opening the cart and checking its displayed artifacts
+        homepage.openCart()
+
         //using wait to get the cartId and use it to manipulate the responses
         cy.wait('@getCart').then((interception) => {
             cartId = interception.request.query.userId;
         });
 
-        //opening the cart and checking its displayed artifacts
-        homepage.openCart()
         cartPage.nameOfItem().should('has.text', 'Camiseta Azul')
         cartPage.qtdItem().should('has.text', 'Price (1 item)')
         cartPage.totalPrice().should('has.text', 'R$ 30.99')
@@ -43,8 +44,9 @@ describe('Given the user are in the cart page', () => {
 
     it('When more than one item is add', () => {
         // setting variable to save cartId of the current session
-        // and intercepting the getCart request
         let cartId = 0
+
+        // and intercepting the getCart request
         cy.intercept('GET',
             '**/getCart**',
             {

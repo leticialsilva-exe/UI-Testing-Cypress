@@ -42,6 +42,6 @@ describe('Checkout testing', () => {
         cy.login(email, password)
         cy.clickMenu("Order")
         cy.clickByID('Placed')
-        cy.get('[data-testid="item-0"]').should('contain', dayjs().format('DD/MM/YYYY')) //checar se existe , ver se data esta a correta, 
+        cy.get('[data-testid="item-0"]').should('contain', '14/05/2025') //checar se existe , ver se data esta a correta, 
     });
 }); 

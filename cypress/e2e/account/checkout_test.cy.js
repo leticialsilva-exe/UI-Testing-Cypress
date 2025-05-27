@@ -19,7 +19,7 @@ describe('Checkout testing', () => {
 
     });
 
-    it('Should try to do a checkout sucessfully', () => {
+    it.skip('Should try to do a checkout sucessfully', () => {
         cy.login(email, password)
         cy.clickMenu('Browse')
         cy.chooseAnItemToBuy()

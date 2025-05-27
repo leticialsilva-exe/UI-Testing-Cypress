@@ -4,7 +4,10 @@
   "description": "Using different aproaches to test",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npx cypress run",
+    "report": "npm run mergeJsonReport && npm run generateReport",
+    "mergeJsonReport": "npx mochawesome-merge cypress/reports/*.json -o cypress/reports/result.json",
+    "generateReport": "npx marge cypress/reports/result.json -o cypress/reports"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^9.6.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "mocha-teamcity-reporter": "^4.2.0"
   }
 }

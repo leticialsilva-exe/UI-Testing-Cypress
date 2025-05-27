@@ -32,6 +32,5 @@ describe('To test account creating', () => {
     signUpPage.signUp(name, phone, email, password)
     signUpPage.warningText().should('contain','Email already exist')
   })
-
   
 })
