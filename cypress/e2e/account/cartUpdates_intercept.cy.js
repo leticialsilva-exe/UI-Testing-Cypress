@@ -66,15 +66,11 @@ describe('Given the user are in the cart page', () => {
             cartId = interception.request.query.userId;
         });
 
-        cartPage.nameOfItem().should('has.text', 'Camiseta VermelhaCamiseta Azul')
+        cartPage.nameOfItem().should('has.text', 'Camiseta PretaCamiseta Azul')
         cartPage.qtdItem().should('has.text', 'Price (2 items)')
         cartPage.totalPrice().should('has.text', 'R$ 719.97')
         cartPage.totalDiscount().should('has.text', '- R$ 70')
         cartPage.totalAmount().should('has.text', 'R$ 649.97')
     });
-
-    it.skip('When it has no item in the cart', () => {
-        
-    });
-
+    
 });
